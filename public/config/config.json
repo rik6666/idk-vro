@@ -1,0 +1,19 @@
+{
+  "CONTRACT_ADDRESS": "0x4cc274580135f5bcF0975d836E4c3057198DbF75",
+  "SCAN_LINK": "https://cronoscan.com/token/0x4cc274580135f5bcf0975d836e4c3057198dbf75",
+  "NETWORK": {
+    "NAME": "Cronos",
+    "SYMBOL": "CRO",
+    "ID": 25
+  },
+  "NFT_NAME": "Flamie Bois",
+  "SYMBOL": "FLAMIE",
+  "MAX_SUPPLY": 166,
+  "WEI_COST": 105000000000000000000,
+  "DISPLAY_COST": 105,
+  "GAS_LIMIT": 285000,
+  "MARKETPLACE": "CroSea",
+  "MARKETPLACE_LINK": "https://www.crosea.io/",
+  "SHOW_BACKGROUND": true
+}
+  
