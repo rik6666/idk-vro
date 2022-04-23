@@ -211,13 +211,13 @@ function App() {
           </s.Container>
           <s.SpacerLarge />
           <s.Container
-            flex={2}
+            flex={1}
             jc={"center"}
             ai={"center"}
             style={{
               backgroundColor: "var(--accent)",
-              padding: 24,
-              borderRadius: 24,
+              padding: 10,
+              borderRadius: 10,
               border: "4px dashed var(--secondary)",
               boxShadow: "0px 5px 11px 2px rgba(0,0,0,0.7)",
             }}
@@ -249,7 +249,7 @@ function App() {
             >
               <StyledButton
                 onClick={(e) => {
-                  window.open("https://twitter.com/flamieboisCRO", "_blank");
+                  window.open("https://twitter.com/ShapesNFTio", "_blank");
                 }}
                 style={{
                   margin: "5px",
@@ -258,14 +258,14 @@ function App() {
                 Twitter
               </StyledButton>
               <StyledButton
+                onClick={(e) => {
+                  window.open("https://discord.gg/j5ADqRgm7e", "_blank");
+                }}
                 style={{
                   margin: "5px",
                 }}
-                onClick={(e) => {
-                  window.open(CONFIG.MARKETPLACE_LINK, "_blank");
-                }}
               >
-                {CONFIG.MARKETPLACE}
+                Discord
               </StyledButton>
             </span>
             <s.SpacerSmall />
